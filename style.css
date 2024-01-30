@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Nanum+Gothic:wght@400;700&family=Pacifico&family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background: url(./images/1.jpeg);
+  background-size: cover;
+}
+
+.head-img {
+  width: 160px;
+  padding-top: 10%;
+}
+
+.head-h1 {
+  text-align: center;
+  color: azure;
+  font-family: "Pacifico";
+  font-size: 84px;
+  padding-bottom: 10%;
+}
+
+.a-line {
+  width: 500px;
+}
+
+.a-h1 {
+  text-align: center;
+  font-family: "Pacifico";
+  font-size: 44px;
+}
+
+.a-h1:first-letter {
+  color: rgb(255, 148, 16);
+}
+
+.a-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.a-card {
+  width: 500px;
+  padding: 20px;
+  margin: 40px;
+  border: solid 2px rgb(157, 157, 157);
+}
+
+.a-card-img {
+  width: 100%;
+}
+
+.a-card-h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.a-card-p {
+  font-family: "Oswald", sans-serif;
+  color: rgb(157, 157, 157);
+}
+
+.b-line {
+  width: 500px;
+}
+
+.b-h1 {
+  text-align: center;
+  font-family: "Pacifico";
+  font-size: 44px;
+}
+
+.b-h1:first-letter {
+  color: rgb(255, 148, 16);
+}
+
+.b-food-flex {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 65px;
+  margin: 0 auto;
+}
+
+.b-food {
+  width: 400px;
+  padding: 20px;
+}
+
+.b-food-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 10px;
+}
+
+.b-food-h1 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(255, 148, 16);
+  text-align: center;
+  padding-bottom: 10px;
+  box-shadow: 0px 10px rgb(241, 241, 241);
+}
+
+.b-food-h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+}
+
+.b-food-p {
+  font-family: "Oswald", sans-serif;
+  color: rgb(157, 157, 157);
+}
+
+.b-food-1 {
+  border: solid 15px rgb(241, 241, 241);
+  padding: 10px;
+}
+
+.b-food-2 {
+  border: solid 15px rgb(241, 241, 241);
+  padding: 10px;
+}
+
+.b-food-3 {
+  border: solid 15px rgb(241, 241, 241);
+  padding: 10px;
+}
+
+.c-line {
+  width: 500px;
+}
+
+.c-h1 {
+  text-align: center;
+  font-family: "Pacifico";
+  font-size: 44px;
+}
+
+.c-h1:first-letter {
+  color: rgb(255, 148, 16);
+}
+
+.c-food-flex {
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+  margin: 0 auto;
+}
+
+.c-food {
+  background-color: rgb(42, 42, 42);
+  font-family: "Oswald", sans-serif;
+  margin: 45px;
+}
+
+.c-food-img {
+  width: 350px;
+}
+
+.c-food-h1 {
+  padding: 20px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+.c-food-p {
+  padding: 20px;
+  padding-top: 0px;
+  color: rgb(99, 99, 99);
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.d-line {
+  width: 500px;
+}
+
+.d-h1 {
+  text-align: center;
+  font-family: "Pacifico";
+  font-size: 44px;
+}
+
+.d-h1:first-letter {
+  color: rgb(255, 148, 16);
+}
+
+.d-com-h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+}
+
+.d-com {
+  padding: 0px 400px 100px 400px;
+}
+
+.d-com-p {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  color: rgb(157, 157, 157);
+}
+
+.d-com-p-first {
+  font-family: "Pacifico";
+  color: rgb(255, 148, 16);
+  font-size: 56px;
+}
+
+.d-com-p-name {
+  margin-bottom: 2px;
+  text-align: end;
+  font-family: "Oswald", sans-serif;
+  color: rgb(255, 148, 16);
+  font-size: 38px;
+}
+
+.d-com-p-name-img {
+  float: right;
+  width: 150px;
+  text-align: end;
+}
+
+.e-line {
+  width: 500px;
+}
+
+.e-h1 {
+  text-align: center;
+  font-family: "Pacifico";
+  font-size: 44px;
+}
+
+.e-h1:first-letter {
+  color: rgb(255, 148, 16);
+}
+
+.e-input input {
+  border: 2px solid rgb(157, 157, 157);
+  outline: none;
+  padding: 1%;
+  width: 20%;
+  margin: 1%;
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.e-input-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.e-input-com {
+  border: 2px solid rgb(157, 157, 157);
+  outline: none;
+  padding: 1%;
+  width: 44%;
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 20px;
+}
+
+.e-btn {
+  color: rgb(176, 176, 176);
+  background-color: rgb(46, 46, 46);
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+  margin-left: 27%;
+}
+
+.block-e {
+  padding-bottom: 80px;
+}
+
+.block-f {
+  background-color: rgb(175, 96, 0);
+  height: 240px;
+}
+
+.f-icon-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.f-icon-img {
+  width: 40px;
+  margin: 70px 10px 30px 10px;
+  padding: 7px;
+  background-color: rgb(225, 225, 225);
+  border-radius: 7px;
+}
+
+.f-icon-p {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(175, 96, 0);
+  margin-bottom: 0px;
+}
+
+@media (max-width: 425px) {
+  .header {
+    width: 100%;
+  }
+
+  .head-h1 {
+    font-size: 62px;
+  }
+
+  .a-line {
+    width: 100%;
+  }
+
+  .b-line {
+    width: 100%;
+  }
+
+  .c-line {
+    width: 100%;
+  }
+
+  .d-line {
+    width: 100%;
+  }
+
+  .e-line {
+    width: 100%;
+  }
+
+  .a-cards {
+    display: block;
+  }
+
+  .a-card {
+    width: 84%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .b-food-flex {
+    display: block;
+    padding: 5px;
+  }
+
+  .b-food {
+    width: 95%;
+  }
+
+  .b-food-1 {
+    margin-bottom: 35px;
+  }
+
+  .b-food-2 {
+    margin-bottom: 35px;
+  }
+
+  .b-food-3 {
+    margin-bottom: 35px;
+  }
+
+  .c-food-flex {
+    display: block;
+    padding: 0;
+  }
+
+  .c-food-img {
+    width: 100%;
+  }
+
+  .d-com {
+    padding: 10px;
+  }
+
+  .d-com-p {
+    font-size: 22px;
+  }
+
+  .d-com-p-name {
+    font-size: 24px;
+  }
+
+  .d-com-p-name-img {
+    width: 100px;
+  }
+}
